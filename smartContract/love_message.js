@@ -40,7 +40,7 @@ LoveMessage.prototype = {
         key = key.trim();
         value = value.trim();
         if (key === "" || value === ""){
-            throw new Error("empty key / value");
+            throw new Error("输入 爱的关键词 或 寄语 为空，请重新输入！");
         }
         if (value.length > 64 || key.length > 64){
             throw new Error("爱的关键词 或 爱的寄语 超过长度限制。。")
