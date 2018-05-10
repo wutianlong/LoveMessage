@@ -199,7 +199,7 @@
     </div>
 
     <div class="noExtension hide" id="noExtension">
-        NOTE: Please install <a target="_blank" href="https://github.com/ChengOrangeJu/WebExtensionWallet">WebExtensionWallet</a>  to use SUPER DICTIONARY
+        注意，请安装 <a target="_blank" href="https://github.com/ChengOrangeJu/WebExtensionWallet">WebExtensionWallet</a>  来继续使用爱情寄语
     </div>
 
      <div>
@@ -246,13 +246,14 @@
     // $("#search").attr("disabled",true)
     // //to check if the extension is installed
     // //if the extension is installed, var "webExtensionWallet" will be injected in to web page
-    // if(typeof(webExtensionWallet) === "undefined"){
+     if(typeof(webExtensionWallet) === "undefined"){
     //     //alert ("Extension wallet is not installed, please install it first.")
-    //     $("#noExtension").removeClass("hide")
-    // }else{
-    //     $("#search_value").attr("disabled",false)
-    //     $("#search").attr("disabled",false)
-    // }
+         $("#noExtension").removeClass("hide")
+     }else{
+         //$("#noExtension").addClass("hide")
+         $("#search_value").attr("disabled",false)
+         $("#search").attr("disabled",false)
+      }
 
     var dappAddress = "n1m9rcL2GVtVnEE23UpvGpTyxAtoKKbi1wT";
 
