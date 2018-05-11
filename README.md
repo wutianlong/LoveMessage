@@ -7,7 +7,7 @@
 
 
 
-## 使用方法： 电脑谷歌浏览器访问网址： http://testapi.hd.sohu.com//LoveMessage/index.html
+## 使用方法： 电脑谷歌浏览器访问网址：http://yrx0511.gz01.bdysite.com/NAS/LoveMessage/index.html
 
 
 
